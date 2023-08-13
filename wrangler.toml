@@ -1,0 +1,13 @@
+name = "recyclingwales-dev"
+main = "src/index.ts"
+compatibility_date = "2023-08-07"
+workers_dev = true
+account_id = "b0d7b9f87b57470ef508f1a511093cae"
+
+[env.prod]
+name = "recyclingwales"
+workers_dev = false
+routes = [
+    { pattern = "recycling.wales/*", zone_name = "recycling.wales" },
+    { pattern = "*.recycling.wales", zone_name = "recycling.wales" }
+]
