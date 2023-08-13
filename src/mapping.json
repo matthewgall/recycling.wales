@@ -1,10 +1,12 @@
 {
     "bridgend": {
-        "keys": ["bridgend"],
-        "location": "https://www.bridgend.gov.uk/residents/recycling-and-waste/"
-    },
-    "bridgend-cy": {
-        "keys": ["penybont", "pen-y-bont"],
-        "location": "https://www.bridgend.gov.uk/cy/preswylwyr/ailgylchu-a-gwastraff/"
+        "en": {
+            "keys": ["bridgend"],
+            "location": "https://www.bridgend.gov.uk/residents/recycling-and-waste/"
+        },
+        "cy": {
+            "keys": ["penybont", "pen-y-bont"],
+            "location": "https://www.bridgend.gov.uk/cy/preswylwyr/ailgylchu-a-gwastraff/"
+        }
     }
 }

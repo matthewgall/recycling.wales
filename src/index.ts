@@ -21,9 +21,14 @@ const router = Router();
 
 function getMapping(target: any) {
     for (let o of Object.keys(Mapping)) {
-        if (Mapping[o].keys.includes(target)) {
-            return Mapping[o].location
+        try {
+            for (let l of ['en', 'cy']) {
+                if (Mapping[o][l].keys.includes(target)) {
+                    return Mapping[o][l].location
+                }
+            }
         }
+        catch(e: any) {}
     }
     return false;
 }
