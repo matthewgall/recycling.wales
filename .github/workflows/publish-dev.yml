@@ -1,4 +1,4 @@
-name: publish-dev
+name: Publish (Bleeding Edge)
 on:
   workflow_dispatch:
   repository_dispatch:
