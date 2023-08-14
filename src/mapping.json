@@ -8,5 +8,15 @@
             "keys": ["penybont", "pen-y-bont"],
             "location": "https://www.bridgend.gov.uk/cy/preswylwyr/ailgylchu-a-gwastraff/"
         }
+    },
+    "valeofglamorgan": {
+        "en": {
+            "keys": ["vogc", "vale", "valeofglamorgan"],
+            "location": "https://www.valeofglamorgan.gov.uk/en/living/Recycling-and-Waste/Recycling-and-Waste.aspx"
+        },
+        "cy": {
+            "keys": ["bromorgannwg", "bro-morgannwg"],
+            "location": "https://www.valeofglamorgan.gov.uk/cy/living/Recycling-and-Waste/Recycling-and-Waste.aspx"
+        }
     }
 }
