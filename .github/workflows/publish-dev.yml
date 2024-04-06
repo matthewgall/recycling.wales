@@ -1,4 +1,4 @@
-name: Publish (Bleeding Edge)
+name: Publish (Development)
 on:
   workflow_dispatch:
   repository_dispatch:
@@ -7,7 +7,7 @@ on:
       - main
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubicloud
     name: Deploy
     steps:
       - uses: actions/checkout@v3
