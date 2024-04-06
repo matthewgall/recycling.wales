@@ -19,5 +19,6 @@ jobs:
         uses: cloudflare/wrangler-action@3.0.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
+          wranglerVersion: "3.48.0"
           command:  | 
              deploy --config wrangler.toml --env prod
